@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.camenbrusseau.myfirstapp.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@color/purpleBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blackBackground"
+        android:textColor="@color/whiteBackground"
+        android:id="@+id/topText"
+        android:text="0.0"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textSize="50sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:id="@+id/buttonClear"
+            android:onClick="clickedClear"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/brownBackground"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/horizontalLine"
+            android:layout_weight="1"
+            android:layout_marginBottom="18dp"
+            android:textSize="50sp"
+            android:background="@color/blackBackground"
+            android:textColor="@color/whiteBackground"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:id="@+id/button7"
+            android:onClick="clickedSeven"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/goldBackground"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:id="@+id/button8"
+            android:onClick="clickedEight"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/goldBackground"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:id="@+id/button9"
+            android:onClick="clickedNine"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/goldBackground"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/buttonPlus"
+            android:onClick="clickedPlus"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/brownBackground"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:id="@+id/button4"
+            android:onClick="clickedFour"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/goldBackground"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:id="@+id/button5"
+            android:onClick="clickedFive"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/goldBackground"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:id="@+id/button6"
+            android:onClick="clickedSix"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/goldBackground"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/buttonMinus"
+            android:onClick="clickedMinus"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/brownBackground"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/button1"
+            android:onClick="clickedOne"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/goldBackground"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:id="@+id/button2"
+            android:onClick="clickedTwo"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/goldBackground"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/button3"
+            android:onClick="clickedThree"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/goldBackground"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:id="@+id/buttonDivide"
+            android:onClick="clickedDivide"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/brownBackground"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:id="@+id/buttonDot"
+            android:onClick="clickedDot"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/brownBackground"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/button0"
+            android:onClick="clickedZero"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/goldBackground"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:id="@+id/buttonEquals"
+            android:onClick="clickedEquals"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/brownBackground"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:id="@+id/buttonMultiply"
+            android:onClick="clickedMultiply"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:background="@color/brownBackground"/>
+
+    </LinearLayout>
+
+</LinearLayout>
