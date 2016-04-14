@@ -3,4 +3,4 @@ OOP Class
 
 Files related to the course will go in this repository (probably).
 
-CalculatorApp.zip contains all 4 changed files needed for the assignment.
+The CalculatorApp folder contains all 4 changed files needed for the assignment.
