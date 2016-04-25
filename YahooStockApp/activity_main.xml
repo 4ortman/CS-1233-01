@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.camenbrusseau.yahoostock.MainActivity"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="symbol"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:id="@+id/stock_symbol"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="price"
+            android:textAlignment="center"
+            android:id="@+id/stock_price"
+            android:background="@drawable/gradient1"
+            android:paddingTop="50dp"
+            android:paddingBottom="50dp"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="volume"
+            android:layout_weight="2"
+            android:textAlignment="center"
+            android:id="@+id/stock_volume"
+            android:background="@drawable/gradient2"
+            android:paddingTop="60dp"
+            android:paddingBottom="60dp"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="p/e"
+            android:layout_weight="3"
+            android:textAlignment="center"
+            android:id="@+id/stock_pe"
+            android:background="@drawable/gradient3"
+            android:paddingTop="60dp"
+            android:paddingBottom="60dp"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="div/yield"
+            android:textAlignment="center"
+            android:id="@+id/stock_divyield"
+            android:background="@drawable/gradient4"
+            android:paddingTop="60dp"
+            android:paddingBottom="70dp"
+            android:layout_marginBottom="-30dp"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
